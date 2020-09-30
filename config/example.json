@@ -1,5 +1,5 @@
 {
   "port": 5000,
-  "jwtSecret": "<secret words>",
+  "jwtSecret": "<secret word or words>",
   "mongoUri": "<mongo Uri>"
 }
