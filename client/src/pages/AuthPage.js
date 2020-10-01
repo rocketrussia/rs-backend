@@ -43,10 +43,9 @@ const AuthPage = () => {
     <div className="row">
       <div className="col s6 offset-s3">
         <img src={logo} alt="Rocket Stars"/>
-        <h5 className="center white-text light">Login to RS apps</h5>
         <div className="card #ffffff white">
           <div className="card-content">
-            <span className="card-title">Authorization</span>
+            <span className="card-title">Authorization in RS apps</span>
             <div>
 
 
