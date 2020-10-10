@@ -13,7 +13,16 @@ const App = () => {
       token, login, logout, userId, isAuthenticated
     }}>
       <div className="container">
-        <AuthPage />
+        {!isAuthenticated && (<AuthPage />)}
+        {isAuthenticated && (
+          <h1 style={{
+            textAlign: 'center',
+            color: 'white',
+            paddingTop: '150px'
+          }}>
+            You are logged
+          </h1>
+        )}
       </div>
     </AuthContext.Provider>
   );
