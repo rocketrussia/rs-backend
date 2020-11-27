@@ -2,8 +2,6 @@ rs-login based in MERN (MongoDB, Express, React, Nodejs)
 
 This app is small auth login form
 
-Demo: [https://rocketstars.ru/login](https://rocketstars.ru/login)
-
 ## For start this project
 
 1. After download or clone project, write in your terminal `npm install`
